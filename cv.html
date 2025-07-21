@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can Çorapçıoğlu - Kişisel Web Sitesi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #222;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #001f3f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            animation: fadeIn 2s ease;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 1s ease forwards;
+        }
+        section:nth-of-type(2) { animation-delay: 0.3s; }
+        section:nth-of-type(3) { animation-delay: 0.6s; }
+        section:nth-of-type(4) { animation-delay: 0.9s; }
+        section:nth-of-type(5) { animation-delay: 1.2s; }
+        section:nth-of-type(6) { animation-delay: 1.5s; }
+        section:nth-of-type(7) { animation-delay: 1.8s; }
+
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .contact a {
+            color: #003366;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .contact a:hover {
+            color: #001f3f;
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #001f3f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 2s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Can Çorapçıoğlu</h1>
+    <p>Bilgisayar Mühendisliği Öğrencisi | Yazılım Geliştirici Adayı</p>
+</header>
+
+<section>
+    <h2>Hakkımda</h2>
+    <p>Atılım Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Veri bilimi, yapay zeka ve sürdürülebilir yazılım çözümleri geliştirme alanlarına ilgi duyuyorum. Yazılım geliştirme, problem çözme ve veri analizi konularında deneyim sahibiyim.</p>
+</section>
+
+<section>
+    <h2>Yetenekler</h2>
+    <ul>
+        <li>Python, Java, C/C++, HTML, Assembly</li>
+        <li>Selenium, SQLite, Veritabanı Tasarımı</li>
+        <li>Derin Öğrenme, Yapay Zeka, Veri Analizi</li>
+        <li>Problem Çözme, Kritik Düşünme, Zaman Yönetimi</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Deneyim</h2>
+    <p><strong>Türk Amerikan Derneği (2024)</strong><br>WordPress ile web siteleri oluşturma ve tasarlama - Gönüllü Stajyer</p>
+    <p><strong>RSA Siber Güvenlik Semineri (2024)</strong><br>Yapay zekanın temelleri ve uygulamaları üzerine seminer katılımı</p>
+</section>
+
+<section>
+    <h2>Eğitim</h2>
+    <p><strong>Atılım Üniversitesi</strong> (2020 - Halen)<br>Bilgisayar Mühendisliği Lisans Derecesi</p>
+    <p><strong>Bahçelievler Sınav Lisesi</strong> - Mezuniyet: 2019</p>
+</section>
+
+<section>
+    <h2>Sertifikalar / Projeler</h2>
+    <ul>
+        <li>Yapay Zeka: Temellerden Uygulamalara (2024)</li>
+        <li>Zaman Yönetimi ve Verimlilik Semineri (2024)</li>
+        <li>Unity ile 2D Oyun Geliştirme (2021) - BBTAN oyunu</li>
+        <li>Python ile Web Otomasyonu & Borsa Botu</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Sosyal Aktiviteler</h2>
+    <ul>
+        <li>Atılım Bilgisayar Kulübü Üyesi</li>
+        <li>Atılım Rhinos Amerikan Futbol Takımı (2021-2024)</li>
+        <li>Hacettepe Reddeers (2022-2023)</li>
+        <li>Fenerbahçe Beko Gençler Altyapı (2008-2013)</li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>İletişim</h2>
+    <p>📞 <strong>Telefon:</strong> +90 539 879 6000</p>
+    <p>📧 <strong>Email:</strong> <a href="mailto:cancorapcioglu1@gmail.com">cancorapcioglu1@gmail.com</a></p>
+    <p>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/">LinkedIn Profilin</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Can Çorapçıoğlu</p>
+</footer>
+
+</body>
+</html>
